@@ -12,6 +12,7 @@
 		16D0C99B2C2784BD00FBDADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D0C9992C2784BD00FBDADB /* LaunchScreen.storyboard */; };
 		16D0C9A52C2786B700FBDADB /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0C9A32C2786B700FBDADB /* MainVC.swift */; };
 		16D0C9A62C2786B700FBDADB /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16D0C9A42C2786B700FBDADB /* MainVC.xib */; };
+		16D0C9A82C278ACD00FBDADB /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0C9A72C278ACD00FBDADB /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		16D0C99C2C2784BD00FBDADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16D0C9A32C2786B700FBDADB /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		16D0C9A42C2786B700FBDADB /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		16D0C9A72C278ACD00FBDADB /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			children = (
 				16D0C9A32C2786B700FBDADB /* MainVC.swift */,
 				16D0C9A42C2786B700FBDADB /* MainVC.xib */,
+				16D0C9A72C278ACD00FBDADB /* TestViewController.swift */,
 			);
 			path = MainVC;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16D0C98F2C2784BC00FBDADB /* AppDelegate.swift in Sources */,
+				16D0C9A82C278ACD00FBDADB /* TestViewController.swift in Sources */,
 				16D0C9A52C2786B700FBDADB /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

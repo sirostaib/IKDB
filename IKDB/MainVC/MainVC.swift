@@ -8,11 +8,37 @@
 import UIKit
 
 class MainVC: UIViewController {
+    
+    var myTextLabel: UILabel = {
+        
+        let label = UILabel()
+        label.text = "Starter2"
+        label.font = .preferredFont(forTextStyle: .headline)
+        label.textColor = .black
+      
+       // label.frame = CGRect(x: 0, y: 0, width: 200, height: 50)
+        
+        return label
+        
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         // Do any additional setup after loading the view.
+        setupLayout()
+    }
+    
+    func setupLayout() {
+        view.addSubview(myTextLabel)
+        myTextLabel.translatesAutoresizingMaskIntoConstraints = false
+        myTextLabel.widthAnchor.constraint(equalToConstant: 200).isActive = true
+        myTextLabel.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        myTextLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        myTextLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -35).isActive = true
+        
+
     }
 
 
