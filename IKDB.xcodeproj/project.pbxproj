@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		161632B52C2D1E2D0069ACA1 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161632B42C2D1E2D0069ACA1 /* DetailViewModel.swift */; };
+		161632B72C2D37AE0069ACA1 /* SimpleMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161632B62C2D37AE0069ACA1 /* SimpleMovieModel.swift */; };
+		1636E48C2C2CF26300852C18 /* MovieDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1636E48A2C2CF26300852C18 /* MovieDetailVC.swift */; };
+		1636E48D2C2CF26300852C18 /* MovieDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1636E48B2C2CF26300852C18 /* MovieDetailVC.xib */; };
 		16D0C98F2C2784BC00FBDADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0C98E2C2784BC00FBDADB /* AppDelegate.swift */; };
 		16D0C9982C2784BD00FBDADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D0C9972C2784BD00FBDADB /* Assets.xcassets */; };
 		16D0C99B2C2784BD00FBDADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D0C9992C2784BD00FBDADB /* LaunchScreen.storyboard */; };
 		16D0C9A52C2786B700FBDADB /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0C9A32C2786B700FBDADB /* MainVC.swift */; };
 		16D0C9A62C2786B700FBDADB /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16D0C9A42C2786B700FBDADB /* MainVC.xib */; };
-		16D0C9A82C278ACD00FBDADB /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0C9A72C278ACD00FBDADB /* TestViewController.swift */; };
+		16E26E362C29ED290032C022 /* MainVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E26E352C29ED290032C022 /* MainVC+TableView.swift */; };
+		16E26E382C29EEBB0032C022 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E26E372C29EEBB0032C022 /* MainViewModel.swift */; };
+		16E26E3A2C29F3610032C022 /* NetworkingConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E26E392C29F3610032C022 /* NetworkingConstant.swift */; };
+		16E26E3C2C29F4780032C022 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E26E3B2C29F4780032C022 /* APICaller.swift */; };
+		16E26E3E2C29F4CD0032C022 /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E26E3D2C29F4CD0032C022 /* MoviesModel.swift */; };
+		16E26E472C2A5BF20032C022 /* CustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E26E452C2A5BF20032C022 /* CustomTableCell.swift */; };
+		16E26E482C2A5BF20032C022 /* CustomTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16E26E462C2A5BF20032C022 /* CustomTableCell.xib */; };
+		16E26E4A2C2A608D0032C022 /* UIViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E26E492C2A608D0032C022 /* UIViewExtentions.swift */; };
+		60EC34F3AC46D4D47314DA57 /* Pods_IKDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B27A38031019112B417E61 /* Pods_IKDB.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		161632B42C2D1E2D0069ACA1 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		161632B62C2D37AE0069ACA1 /* SimpleMovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMovieModel.swift; sourceTree = "<group>"; };
+		1630EF9BD01C3AD891CA90A1 /* Pods-IKDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKDB.debug.xcconfig"; path = "Target Support Files/Pods-IKDB/Pods-IKDB.debug.xcconfig"; sourceTree = "<group>"; };
+		1636E48A2C2CF26300852C18 /* MovieDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailVC.swift; sourceTree = "<group>"; };
+		1636E48B2C2CF26300852C18 /* MovieDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieDetailVC.xib; sourceTree = "<group>"; };
 		16D0C98B2C2784BC00FBDADB /* IKDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D0C98E2C2784BC00FBDADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16D0C9972C2784BD00FBDADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -23,7 +40,16 @@
 		16D0C99C2C2784BD00FBDADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16D0C9A32C2786B700FBDADB /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		16D0C9A42C2786B700FBDADB /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
-		16D0C9A72C278ACD00FBDADB /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		16E26E352C29ED290032C022 /* MainVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC+TableView.swift"; sourceTree = "<group>"; };
+		16E26E372C29EEBB0032C022 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		16E26E392C29F3610032C022 /* NetworkingConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingConstant.swift; sourceTree = "<group>"; };
+		16E26E3B2C29F4780032C022 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		16E26E3D2C29F4CD0032C022 /* MoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesModel.swift; sourceTree = "<group>"; };
+		16E26E452C2A5BF20032C022 /* CustomTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableCell.swift; sourceTree = "<group>"; };
+		16E26E462C2A5BF20032C022 /* CustomTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableCell.xib; sourceTree = "<group>"; };
+		16E26E492C2A608D0032C022 /* UIViewExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtentions.swift; sourceTree = "<group>"; };
+		5B3258F938FED398E23E8653 /* Pods-IKDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKDB.release.xcconfig"; path = "Target Support Files/Pods-IKDB/Pods-IKDB.release.xcconfig"; sourceTree = "<group>"; };
+		69B27A38031019112B417E61 /* Pods_IKDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IKDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,196 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60EC34F3AC46D4D47314DA57 /* Pods_IKDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		161632B82C2D3B4F0069ACA1 /* Alternate Structure */ = {
+			isa = PBXGroup;
+			children = (
+				161632BA2C2D3B780069ACA1 /* Support */,
+				161632B92C2D3B660069ACA1 /* Source */,
+				161632CC2C2D3CB30069ACA1 /* Tests */,
+			);
+			path = "Alternate Structure";
+			sourceTree = "<group>";
+		};
+		161632B92C2D3B660069ACA1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				161632C82C2D3C0D0069ACA1 /* Common */,
+				161632BF2C2D3BBF0069ACA1 /* Modules */,
+				161632BE2C2D3BA70069ACA1 /* App */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		161632BA2C2D3B780069ACA1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		161632BB2C2D3B8C0069ACA1 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		161632BC2C2D3B920069ACA1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		161632BD2C2D3B9A0069ACA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		161632BE2C2D3BA70069ACA1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				161632BB2C2D3B8C0069ACA1 /* Extentions */,
+				161632BC2C2D3B920069ACA1 /* Services */,
+				161632BD2C2D3B9A0069ACA1 /* Resources */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		161632BF2C2D3BBF0069ACA1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				161632C42C2D3BF10069ACA1 /* DetailModule */,
+				161632C02C2D3BC80069ACA1 /* MainModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		161632C02C2D3BC80069ACA1 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				161632C12C2D3BD30069ACA1 /* Model */,
+				161632C32C2D3BDC0069ACA1 /* ViewModel */,
+				161632C22C2D3BD80069ACA1 /* View */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		161632C12C2D3BD30069ACA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		161632C22C2D3BD80069ACA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		161632C32C2D3BDC0069ACA1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		161632C42C2D3BF10069ACA1 /* DetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				161632C72C2D3C020069ACA1 /* Model */,
+				161632C62C2D3BFD0069ACA1 /* ViewModel */,
+				161632C52C2D3BF80069ACA1 /* View */,
+			);
+			path = DetailModule;
+			sourceTree = "<group>";
+		};
+		161632C52C2D3BF80069ACA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		161632C62C2D3BFD0069ACA1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		161632C72C2D3C020069ACA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		161632C82C2D3C0D0069ACA1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				161632C92C2D3C170069ACA1 /* Base */,
+				161632CA2C2D3C1E0069ACA1 /* Components */,
+				161632CB2C2D3C270069ACA1 /* Utilities */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		161632C92C2D3C170069ACA1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		161632CA2C2D3C1E0069ACA1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		161632CB2C2D3C270069ACA1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		161632CC2C2D3CB30069ACA1 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		1636E4892C2CF22F00852C18 /* MovieDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				1636E48A2C2CF26300852C18 /* MovieDetailVC.swift */,
+				1636E48B2C2CF26300852C18 /* MovieDetailVC.xib */,
+			);
+			path = MovieDetailVC;
+			sourceTree = "<group>";
+		};
 		16D0C9822C2784BC00FBDADB = {
 			isa = PBXGroup;
 			children = (
 				16D0C98D2C2784BC00FBDADB /* IKDB */,
 				16D0C98C2C2784BC00FBDADB /* Products */,
+				54FF02140CE9B569EDE0E874 /* Pods */,
+				E66196FD9C126DA7622A1776 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,11 +261,16 @@
 		16D0C98D2C2784BC00FBDADB /* IKDB */ = {
 			isa = PBXGroup;
 			children = (
-				16D0C9A22C27866F00FBDADB /* MainVC */,
+				16E26E342C29E8AC0032C022 /* Services */,
+				16E26E332C29E88F0032C022 /* Extentions */,
+				16E26E322C29E8770032C022 /* Resources */,
+				16E26E2F2C29E8480032C022 /* Model */,
+				16E26E2E2C29E8410032C022 /* ViewModel */,
+				16E26E302C29E8550032C022 /* ViewControllers */,
+				16E26E2D2C29E83B0032C022 /* View */,
 				16D0C98E2C2784BC00FBDADB /* AppDelegate.swift */,
-				16D0C9972C2784BD00FBDADB /* Assets.xcassets */,
-				16D0C9992C2784BD00FBDADB /* LaunchScreen.storyboard */,
 				16D0C99C2C2784BD00FBDADB /* Info.plist */,
+				161632B82C2D3B4F0069ACA1 /* Alternate Structure */,
 			);
 			path = IKDB;
 			sourceTree = "<group>";
@@ -70,9 +280,104 @@
 			children = (
 				16D0C9A32C2786B700FBDADB /* MainVC.swift */,
 				16D0C9A42C2786B700FBDADB /* MainVC.xib */,
-				16D0C9A72C278ACD00FBDADB /* TestViewController.swift */,
+				16E26E352C29ED290032C022 /* MainVC+TableView.swift */,
 			);
 			path = MainVC;
+			sourceTree = "<group>";
+		};
+		16E26E2D2C29E83B0032C022 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16E26E442C2A5BD00032C022 /* CustomCell */,
+				16E26E4D2C2B84D40032C022 /* Base */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16E26E2E2C29E8410032C022 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				16E26E372C29EEBB0032C022 /* MainViewModel.swift */,
+				161632B42C2D1E2D0069ACA1 /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		16E26E2F2C29E8480032C022 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16E26E3D2C29F4CD0032C022 /* MoviesModel.swift */,
+				161632B62C2D37AE0069ACA1 /* SimpleMovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16E26E302C29E8550032C022 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1636E4892C2CF22F00852C18 /* MovieDetailVC */,
+				16D0C9A22C27866F00FBDADB /* MainVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		16E26E322C29E8770032C022 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16D0C9972C2784BD00FBDADB /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		16E26E332C29E88F0032C022 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				16E26E492C2A608D0032C022 /* UIViewExtentions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		16E26E342C29E8AC0032C022 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				16E26E392C29F3610032C022 /* NetworkingConstant.swift */,
+				16E26E3B2C29F4780032C022 /* APICaller.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		16E26E442C2A5BD00032C022 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				16E26E452C2A5BF20032C022 /* CustomTableCell.swift */,
+				16E26E462C2A5BF20032C022 /* CustomTableCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		16E26E4D2C2B84D40032C022 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				16D0C9992C2784BD00FBDADB /* LaunchScreen.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		54FF02140CE9B569EDE0E874 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1630EF9BD01C3AD891CA90A1 /* Pods-IKDB.debug.xcconfig */,
+				5B3258F938FED398E23E8653 /* Pods-IKDB.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E66196FD9C126DA7622A1776 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69B27A38031019112B417E61 /* Pods_IKDB.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,9 +387,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16D0C99F2C2784BD00FBDADB /* Build configuration list for PBXNativeTarget "IKDB" */;
 			buildPhases = (
+				63B54A3CFE06DD9F06BB1769 /* [CP] Check Pods Manifest.lock */,
 				16D0C9872C2784BC00FBDADB /* Sources */,
 				16D0C9882C2784BC00FBDADB /* Frameworks */,
 				16D0C9892C2784BC00FBDADB /* Resources */,
+				373E16D51A6043C8CBE4A9C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,12 +441,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				16D0C9A62C2786B700FBDADB /* MainVC.xib in Resources */,
+				1636E48D2C2CF26300852C18 /* MovieDetailVC.xib in Resources */,
 				16D0C99B2C2784BD00FBDADB /* LaunchScreen.storyboard in Resources */,
+				16E26E482C2A5BF20032C022 /* CustomTableCell.xib in Resources */,
 				16D0C9982C2784BD00FBDADB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		373E16D51A6043C8CBE4A9C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IKDB/Pods-IKDB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IKDB/Pods-IKDB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IKDB/Pods-IKDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63B54A3CFE06DD9F06BB1769 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IKDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		16D0C9872C2784BC00FBDADB /* Sources */ = {
@@ -147,8 +498,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				16D0C98F2C2784BC00FBDADB /* AppDelegate.swift in Sources */,
-				16D0C9A82C278ACD00FBDADB /* TestViewController.swift in Sources */,
+				161632B72C2D37AE0069ACA1 /* SimpleMovieModel.swift in Sources */,
+				1636E48C2C2CF26300852C18 /* MovieDetailVC.swift in Sources */,
+				16E26E4A2C2A608D0032C022 /* UIViewExtentions.swift in Sources */,
+				16E26E3C2C29F4780032C022 /* APICaller.swift in Sources */,
+				16E26E472C2A5BF20032C022 /* CustomTableCell.swift in Sources */,
 				16D0C9A52C2786B700FBDADB /* MainVC.swift in Sources */,
+				161632B52C2D1E2D0069ACA1 /* DetailViewModel.swift in Sources */,
+				16E26E3E2C29F4CD0032C022 /* MoviesModel.swift in Sources */,
+				16E26E3A2C29F3610032C022 /* NetworkingConstant.swift in Sources */,
+				16E26E362C29ED290032C022 /* MainVC+TableView.swift in Sources */,
+				16E26E382C29EEBB0032C022 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +647,14 @@
 		};
 		16D0C9A02C2784BD00FBDADB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1630EF9BD01C3AD891CA90A1 /* Pods-IKDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J2S37HDXXS;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IKDB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,12 +676,14 @@
 		};
 		16D0C9A12C2784BD00FBDADB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B3258F938FED398E23E8653 /* Pods-IKDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J2S37HDXXS;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IKDB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
